@@ -34,3 +34,12 @@ body {
 ul {
   padding-left: 25px;
 }
+
+.photo {
+  width: 70%;
+  border-radius: 50%;
+}
+
+.photo-container {
+  text-align: center;
+}
