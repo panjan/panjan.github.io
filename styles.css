@@ -1,3 +1,36 @@
 body {
-    font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 42px 8% 42px 8% ;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  max-width: 80%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left-column {
+  flex: 2;
+  margin-right: 32px;
+}
+
+.right-column {
+  flex: 5;
+}
+
+@media screen and (max-width: 500px) {
+  .container { 
+    flex-direction: column; 
+  }
+
+  .left-column {
+    margin-right: 0px;
+  }
+}
+
+ul {
+  padding-left: 25px;
 }
