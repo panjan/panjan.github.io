@@ -1,6 +1,16 @@
 body {
   font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 42px 8% 42px 8% ;
+  background-color: #3f3f3f;
+  color: #dcdccc;
+}
+
+h1, h2 {
+  color: f0dfaf;
+}
+
+a {
+  color: #7F9F7F;
 }
 
 .container{
