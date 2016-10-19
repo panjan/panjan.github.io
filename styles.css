@@ -23,15 +23,15 @@ a {
 }
 
 .left-column {
-  flex: 2;
+  flex: 1;
   margin-right: 32px;
 }
 
 .right-column {
-  flex: 4;
+  flex: 2;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-device-width: 650px) {
   .container { 
     flex-direction: column; 
   }
@@ -51,6 +51,7 @@ ul {
   height: 175px;
   border-radius: 50%;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .photo {
