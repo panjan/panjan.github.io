@@ -6,7 +6,7 @@ body {
 }
 
 h1, h2 {
-  color: f0dfaf;
+  color: #f0dfaf;
 }
 
 a {
@@ -28,10 +28,10 @@ a {
 }
 
 .right-column {
-  flex: 5;
+  flex: 4;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 650px) {
   .container { 
     flex-direction: column; 
   }
@@ -45,11 +45,22 @@ ul {
   padding-left: 25px;
 }
 
-.photo {
-  width: 70%;
+.circle {
+  position: relative;
+  width: 175px;
+  height: 175px;
   border-radius: 50%;
+  overflow: hidden;
 }
 
-.photo-container {
-  text-align: center;
+.photo {
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  margin-top: 0;
+}
+
+.info-container {
+  width: 100%;
 }
