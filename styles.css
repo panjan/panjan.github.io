@@ -32,8 +32,8 @@ a {
 }
 
 @media screen and (max-device-width: 650px) {
-  .container { 
-    flex-direction: column; 
+  .container {
+    flex-direction: column;
   }
 
   .left-column {
@@ -60,8 +60,4 @@ ul {
   margin-right: -50%;
   transform: translate(-50%);
   margin-top: 0;
-}
-
-.info-container {
-  width: 100%;
 }
