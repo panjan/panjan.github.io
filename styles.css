@@ -60,3 +60,7 @@ ul {
   transform: translate(-50%);
   margin-top: 0;
 }
+
+.photo-container {
+  text-align: center;
+}
