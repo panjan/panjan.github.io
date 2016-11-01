@@ -26,6 +26,10 @@ a {
   margin-right: 32px;
 }
 
+.left-column h3 {
+  margin-bottom: 4px;
+}
+
 .right-column {
   flex: 2;
 }
