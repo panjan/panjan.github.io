@@ -13,12 +13,14 @@ a {
   color: #7F9F7F;
 }
 
-.container{
-  display: flex;
-  flex-direction: row;
-  max-width: 80%;
+.container {
   max-width: 800px;
   margin: 0 auto;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
 }
 
 .left-column {
@@ -35,7 +37,7 @@ a {
 }
 
 @media screen and (max-width: 768px) {
-  .container {
+  .flex-container {
     flex-direction: column;
   }
 
@@ -66,5 +68,9 @@ ul {
 }
 
 .photo-container {
+  text-align: center;
+}
+
+footer {
   text-align: center;
 }
