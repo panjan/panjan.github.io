@@ -121,6 +121,10 @@ Solder connections according to the Fritzing scheme. Strengthen the connections 
 
 ![wemos connected](/assets/alien_wemos.jpeg)
 
+## Battery Holder and Charging
+
+- TODO
+
 ## Final Touches
 
 Cover the Wemos with some felt (use hot glue gun). Allow for access to the micro USB port.
